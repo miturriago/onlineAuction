@@ -28,8 +28,8 @@ align-items: center;
   align-self: flex-start;
   height: 100px;
   border-radius: 100%;
-  margin-bottom: 30px;
 }
+
 
 .main .footer{
   margin-top:80px;
@@ -53,7 +53,7 @@ align-items: center;
   background-color: transparent;
   color: #f2f2f2;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -70,8 +70,8 @@ align-items: center;
 }
 
 /* Add an active class to highlight the current page */
-.topnav button .active {
-  background-color: #ef7b98;
+.active {
+  background-color: #ef7b98 !important;
   color: white;
 }
 
@@ -100,3 +100,30 @@ align-items: center;
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  
+  .topnav button {
+    float: left;
+    display: block;
+    background-color: transparent;
+    color: #f2f2f2;
+    text-align: center;
+    margin-right: 5px;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+
+  .header{
+    margin-bottom: 60px;
+
+  }
+  
+  
+  
+
+}

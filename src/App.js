@@ -7,25 +7,24 @@ import tecnologyItems from "./assets/tecnology";
 
 function App() {
   const [cards, setCards] = useState([]);
+  const [activeHome, setActiveHome] = useState(true);
+  const [activeTecno, setActiveTecno] = useState(false);
+
   useEffect(() => {
-    // Update the document title using the browser API
-    console.log("primera vez")
     setCards(homeItems)
   }, []);
 
-  useEffect(() => {
-    // Update the document title using the browser API
-    console.log("cambio data", cards)
-
-  }, [cards]);
+  
   const homeData = () => {
-    console.log("home")
     setCards(homeItems);
+    setActiveHome(true);
+    setActiveTecno(false);
   };
 
   const tecnologyData = () => {
-    console.log("tecnology")
     setCards(tecnologyItems);
+    setActiveHome(false);
+    setActiveTecno(true);
   };
 
   const clothesData = () => {
@@ -39,10 +38,10 @@ function App() {
       <div className="header">
         <img className="head" src={logo}></img>
 
+
         <div className="topnav" >
-          <button onClick={() => homeData()} className="active">Hogar</button>
-          <button onClick={() => tecnologyData()} >Tecnología</button>
-          <button onClick={() => clothesData()}>Ropa y zapatos</button>
+          <button onClick={() => homeData()} className={activeHome ? "active" : ""}>Hogar</button>
+          <button onClick={() => tecnologyData()} className={activeTecno ? "active" : ""} >Tecnología</button>
         </div>
       </div>
       {cards.length !== 0 && <Carousel

@@ -29,7 +29,7 @@ const tecnologyItems = [
         Consumo (wtts): 31.5 kWh/mes,
         Alto: 184 cm,
         Ancho: 67.9 cm"
-        min={1600000}
+        min={1400000}
         imagen="https://res.cloudinary.com/lou/image/upload/v1686707090/subasta/IMG_0798_pqi7ap.jpg" />
     )
   },
@@ -115,10 +115,10 @@ const tecnologyItems = [
     key: uuidv4(),
     content: (
       <Card
-        title="Monitor 24'"
+        title="Monitor 24' ACER"
         description="Acer Nitro Qg241y Pbmiipx Monitor De Juegos Va Full Hd
         Monitor de juegos VA de pantalla ancha Full HD (1920 x 1080) de 23,8' | Tecnología AMD FreeSync Premium | Diseño de fotograma cero  | HDR10 Soporte | Frecuencia de actualización: hasta 165 Hz "
-        min={500000}
+        min={450000}
         imagen="https://res.cloudinary.com/lou/image/upload/v1686709259/subasta/WhatsApp_Image_2023-06-13_at_9.19.03_PM_zu5aur.jpg" />
     )
   },
@@ -126,7 +126,7 @@ const tecnologyItems = [
     key: uuidv4(),
     content: (
       <Card
-        title="Monitor 27'"
+        title="Monitor 27' HP"
         description="Monitor HP M27fw, 
         Tipo de panel: IPS, 
         Formato: 16:9, 
@@ -152,10 +152,14 @@ const tecnologyItems = [
     key: uuidv4(),
     content: (
       <Card
-        title="Tablet Samsung"
-        description="Reloj de pared con fondo negro y borde metálico a base de pila AA"
+        title="Tablet Samsung Galaxy Tab A8"
+        description="Sistema operativo: Android.
+        Con procesador Octa-Core de 2GHz.
+        Resolución de pantalla de 1920px x 1200px.
+        Con lector micro-SD.
+        Reproducciones en Full HD.  128GB almacenamiento"
         min={500000}
-        imagen="https://res.cloudinary.com/lou/image/upload/v1686710182/subasta/WhatsApp_Image_2023-06-13_at_9.29.32_PM_ufxagv.jpg" />
+        imagen="https://res.cloudinary.com/lou/image/upload/v1686777172/subasta/WhatsApp_Image_2023-06-14_at_3.55.54_PM_lpze9y.jpg" />
     )
   },
   {

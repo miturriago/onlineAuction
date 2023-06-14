@@ -78,8 +78,6 @@ function Card({ imagen, title, description, min }) {
 
       } catch (error) {
         setIsLoading(false)
-
-        console.log('Error:', error);
       }
 
     } else {
@@ -118,7 +116,7 @@ function Card({ imagen, title, description, min }) {
               {description}
             </p>
 
-            <small> min $ {min}</small>
+            <small> min $ {min.toLocaleString()}</small>
             <div className={Styles.btnn}>
               <button onClick={() => { openDialog() }} className={Styles.btn}>Ofrecer</button>
             </div>

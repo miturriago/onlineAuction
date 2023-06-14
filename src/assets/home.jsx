@@ -43,7 +43,7 @@ const homeItems = [
         title="Librero negro"
         description="Librero de color negro hecho en madera con 5 niveles, perfecto para organizar libros, accesorios y adornos. medidas:  120x35x20"
         min={80000}
-        imagen="https://res.cloudinary.com/lou/image/upload/q_36/v1686699394/subasta/IMG_0776_h8czh0.png" />
+        imagen="https://res.cloudinary.com/lou/image/upload/v1686777084/subasta/WhatsApp_Image_2023-06-14_at_4.10.22_PM_zlh9qr.jpg" />
     )
   },
   {
@@ -114,16 +114,6 @@ const homeItems = [
         description="Espejo vestidor ideal para espacios interiores, que  permite otorgar la sensación de amplitud en espacios reducidos"
         min={15000}
         imagen="https://res.cloudinary.com/lou/image/upload/v1686702368/subasta/IMG_0782_pcydri.jpg" />
-    )
-  },
-  {
-    key: uuidv4(),
-    content: (
-      <Card
-        title="Reloj de Pared"
-        description="Reloj de pared con fondo negro y borde metálico a base de pila AA"
-        min={10000}
-        imagen="https://res.cloudinary.com/lou/image/upload/q_36/v1686700211/subasta/IMG_0771_g59kga.jpg" />
     )
   },
   {
