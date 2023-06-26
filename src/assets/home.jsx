@@ -50,36 +50,6 @@ const homeItems = [
     key: uuidv4(),
     content: (
       <Card
-        title="Cuadro Decorativo 1"
-        description="Cuadro decorativo con base hecha en madera con medidas 80x40"
-        min={20000}
-        imagen="https://res.cloudinary.com/lou/image/upload/q_36/v1686699935/subasta/IMG_0769-2_ptgtri.png" />
-    )
-  },
-  {
-    key: uuidv4(),
-    content: (
-      <Card
-        title="Cuadro Decorativo 2"
-        description="Cuadro decorativo con base hecha en madera con medidas 80x40"
-        min={20000}
-        imagen="https://res.cloudinary.com/lou/image/upload/q_36/v1686699942/subasta/IMG_0770_ir1uyb.png" />
-    )
-  },
-  {
-    key: uuidv4(),
-    content: (
-      <Card
-        title="Reloj de Pared"
-        description="Reloj de pared con fondo negro y borde metálico a base de pila AA"
-        min={10000}
-        imagen="https://res.cloudinary.com/lou/image/upload/q_36/v1686700211/subasta/IMG_0771_g59kga.jpg" />
-    )
-  },
-  {
-    key: uuidv4(),
-    content: (
-      <Card
         title="Silla de Escritorio"
         description="Silla de escritorio gerente con sistema neumático, diseño moderno, sistema giratorio y sube y baja que permite acomodarse a la altura que desees, brazos ajustables. Material durable para soportar el peso y el uso continuo"
         min={300000}
@@ -94,16 +64,6 @@ const homeItems = [
         description="Elegante escritorio de vidrio negro con medias 110x60x74"
         min={150000}
         imagen="https://res.cloudinary.com/lou/image/upload/v1686701237/subasta/294276_02_jycbjg.jpg" />
-    )
-  },
-  {
-    key: uuidv4(),
-    content: (
-      <Card
-        title="Espejo Marco Blanco"
-        description="Espejo vestidor ideal para espacios interiores, que  permite otorgar la sensación de amplitud en espacios reducidos"
-        min={15000}
-        imagen="https://res.cloudinary.com/lou/image/upload/v1686701905/subasta/WhatsApp_Image_2023-06-13_at_7.17.46_PM_zkx3h1.jpg" />
     )
   },
   {
